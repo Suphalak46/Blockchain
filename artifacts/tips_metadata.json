@@ -24,7 +24,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tips.sol": "tips"
+			"tips1.sol": "tips"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -38,12 +38,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tips.sol": {
-			"keccak256": "0xe9aaaee0919beae890273958bc7efa33cfc9a3c8e53b830001a55525f2e7256c",
+		"tips1.sol": {
+			"keccak256": "0x57e0bb0145c77f9708001ccb6f6b9d8b3a5fe10ef53c3080f02aa580e55816d8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://841cb35f550df893f8be452f9de57d6b1eb53df260e219d9bf5552529bf58f17",
-				"dweb:/ipfs/QmTEGuXooRMusxGW9oKTs4VM6AJVJwUrxZw9FqHnzjNoEL"
+				"bzz-raw://9f92060314ad82534df01e6406a208647e2aa012b15a796a303078228eb1df9a",
+				"dweb:/ipfs/QmXheiuYPPS1iCBGP8fjVLbktG9Db8Y3xYM8EvGQbiBv9R"
 			]
 		}
 	},
