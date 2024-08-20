@@ -48,6 +48,19 @@ contract tips {
     }
 
     //4. remove user
+    function removeWaitree(address payable walletAddress) public{
+        if(waitress.length>0){
+            for(uint i=0; i<waitress.length; i++){
+                if(waitress[i].walletAddress==walletAddress){
+                    for(uint j=i; j<waitress.length-1; j++){
+                        waitress[j]=waitress[j+1];
+                    }
+                    waitress.pop();
+                    break;
+                }
+            }
+        }
+    }
 
     //5. view user
     function viewWaitrass() public view returns (Waiteress[] memory){

@@ -9,6 +9,82 @@
 				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "walletAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "addWaitress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "addtips",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "walletAddress",
+						"type": "address"
+					}
+				],
+				"name": "removeWaitree",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewWaitrass",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address payable",
+								"name": "walletAddress",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							}
+						],
+						"internalType": "struct tips.Waiteress[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewtips",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -24,7 +100,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tips1.sol": "tips"
+			"tips.sol": "tips"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -38,12 +114,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tips1.sol": {
-			"keccak256": "0x57e0bb0145c77f9708001ccb6f6b9d8b3a5fe10ef53c3080f02aa580e55816d8",
+		"tips.sol": {
+			"keccak256": "0x1132103a143da2142ff63a24ebe0e94a050d5444f70af779ab8f1434f512ba6c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9f92060314ad82534df01e6406a208647e2aa012b15a796a303078228eb1df9a",
-				"dweb:/ipfs/QmXheiuYPPS1iCBGP8fjVLbktG9Db8Y3xYM8EvGQbiBv9R"
+				"bzz-raw://5a7c2f62462ec3fe9a89b8e52b59f36f12098712778ce589c4ee770abb2082d8",
+				"dweb:/ipfs/QmbFGBXKRT8f5AuC3Ka9frqg8aX1f6L6C6pU5s8HnLD772"
 			]
 		}
 	},
