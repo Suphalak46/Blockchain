@@ -36,6 +36,13 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "distrubiteTips",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address payable",
@@ -115,11 +122,11 @@
 	},
 	"sources": {
 		"tips.sol": {
-			"keccak256": "0x1132103a143da2142ff63a24ebe0e94a050d5444f70af779ab8f1434f512ba6c",
+			"keccak256": "0x176d69f2ad9747b01471bb5f7ca77c9ee39427481bf14862eb9b3384e479651a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5a7c2f62462ec3fe9a89b8e52b59f36f12098712778ce589c4ee770abb2082d8",
-				"dweb:/ipfs/QmbFGBXKRT8f5AuC3Ka9frqg8aX1f6L6C6pU5s8HnLD772"
+				"bzz-raw://35970f41625a03d77fd097843dec70f6be0d3215b8b050595251fbedbdf9b9e5",
+				"dweb:/ipfs/QmYv56nd9f9cPnvAYPkwFo3TNYiPxiJKsPXKEkWjXRXFVV"
 			]
 		}
 	},
